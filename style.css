@@ -1,0 +1,244 @@
+* {
+    background-color: #ffedb9;
+}
+
+header div{
+    display: flex;
+}
+
+header h1 {
+    color:#fb7c25;
+    font-family: "Abril Fatface", serif;
+    font-weight: light;
+    text-align: center;
+    background-color: #B87333;
+    width: 100%;
+    margin-bottom: .01rem;
+}
+
+header img {
+   max-width: 50%;
+   height: 10rem;
+   margin:auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   border-top: 0;
+   border-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+    font-family: "Playfair Display";
+    background-color: #eaa932;
+    margin-top: .01rem;
+}
+
+nav a:link {
+    color:#996515;
+    background-color:#eaa932;
+}
+
+nav a:visited {
+    color: #8A3324;
+    background-color: #eaa932;
+}
+
+@media only screen and (max-width: 525px) {
+    nav a {
+        display: inline-block;
+        border-right: 0.25rem;
+        margin-right:auto;
+        padding-right: 0.5rem;
+        font-size: .75rem;
+        padding-top: .25rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
+@media only screen and (min-width: 526px) and (max-width:617px) {
+    nav a {
+        display: inline-block;
+        padding-right: 0.5rem;
+        font-size: .75rem;
+        padding-top: .25rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
+body h2 {
+    font-family: "Playfair Display";
+    color:#b55b27;
+    text-align: center;
+}
+
+#mission_statement p{
+    font-family: Raleway;
+    color: #832d01;
+    text-align: center;
+}
+
+#food_menu .breakfast {
+    text-align: center;
+    text-decoration: underline;
+    color:#FE8714;
+    font-family: "Playfair Display";
+}
+
+#food_menu h4 {
+    color:#FE8714;
+    font-weight:bold;
+    font-family: Raleway;
+    text-align: center;
+}
+
+#food_menu p {
+    color:#832d01;
+    font-family: Raleway;
+    text-align: center;
+}
+
+#food_menu .lunch {
+    text-align: center;
+    text-decoration: underline;
+    color:#FE6900;
+    font-family: "Playfair Display";
+}
+
+#food_menu .snacks{
+    text-align: center;
+    text-decoration: underline;
+    color:#EF5200;
+    font-family: "Playfair Display";
+}
+
+#coffee_menu .espresso {
+    text-align: center;
+    text-decoration: underline;
+    color:#FE8714;
+    font-family: "Playfair Display";
+}
+
+#coffee_menu h4 {
+    color:#FE8714;
+    font-weight:bold;
+    font-family: Raleway;
+    text-align: center;
+}
+
+#coffee_menu p{
+    color:#832d01;
+    font-family: Raleway;
+    text-align: center;
+}
+
+#coffee_menu .specialty {
+    color: #cf5704;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Playfair Display";
+}
+
+.felines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-direction: row;
+}
+
+.kittens {
+    flex-basis: 10rem;
+}
+
+#cats img {
+    width: 16rem;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+}
+
+#cats h3 {
+    font-family:"Playfair Display";
+    color: #e5790d;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#cats p {
+    font-family: Raleway;
+    color:#832d01;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .125rem;
+    flex-direction: row;
+}
+
+.teammate {
+    flex-basis: 15rem;
+}
+
+#employees img {
+    width: 20rem;
+    height: auto;
+    margin: auto;
+}
+
+#employees h3 {
+    font-family: "Playfair Display";
+    color: #e5790d;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: .0025rem;
+    /*float: left;*/
+    /*display: inline-flex;*/
+}
+
+#employees p {
+    font-family: Raleway;
+    color: #832d01;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    /*margin-bottom: 1rem;
+    margin-top: 1rem;*/
+    /*float: left;*/
+    /*display: inline-block;*/
+    margin-bottom: 1rem;
+}
+
+#logo {
+    background-color:#B87333;
+    padding-top: 0rem;
+    position: static;
+    bottom: 0rem;
+    /*left: 50%;*/
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_image img {
+    background-color: #B87333;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9rem;
+    left: 50%;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+}
